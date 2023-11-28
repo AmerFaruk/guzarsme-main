@@ -1,0 +1,111 @@
+@font-face {
+    font-family: "japan";
+    src: url("/sources/projects/blog/fonts/zapan-zapan-regular-400.otf");
+}
+#night-h {
+    color: #105CD1;
+}
+#day-h {
+    color: #80183E;
+}
+#guzar-h {
+    color: #7C288F;
+}
+.main-page {
+    height: 20vw;
+}
+#parts {
+    
+    padding-top: 5vw;
+    
+    width: 100%;
+}
+.col-md-9 {
+    margin-top: 5%;
+}
+.parts {
+    position: absolute;
+    padding: 10% 15% 0% 45%;
+    top: 45vw;
+    width: 100%;
+}
+.part-text{
+    font-family: "japan";
+    text-align: justify;
+    font-size: 1.3vw;
+    
+}
+
+h3 {
+    font-family: "japan";
+    font-size: 2.4vw;
+    
+}
+h2 {
+    position: absolute;
+    left: 5vw;
+    top: 140vw;
+    font-family: "japan";
+    font-size: 4vw;
+    
+}
+.welcome-message {
+    position: absolute;
+    padding: 10% 15% 0% 45%;
+    top: 25vw;
+}
+
+.part-content {
+    
+    margin-bottom: 1.5vw;
+}
+.intro {
+    font-family: "japan";
+    font-size: 1.6vw;
+    text-align: right;
+}
+h1 {
+    font-size: 20vw;
+    font-family: "japan";
+    display: inline-block;
+    position: absolute;
+    left: 10vw;
+    top: 10vw;
+}
+.main-img-face {
+    position: absolute;
+    right: 10vw;
+    top: 10vw;
+    width: 25vw;
+    height: 25vw;
+}
+
+.main-img-samurai {
+    width: 40vw;
+}
+
+.main-img-dragon {
+    position: absolute;
+    left: 5vw;
+    
+}
+
+.main-img-leaves {
+    z-index:-5;
+    position: absolute;
+    top: 90vw;
+    right: 50vw;
+    width: 40vw;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1) rotate(20deg);
+ 
+   
+}
+
+.footer-padding {
+    
+    position: absolute;
+    bottom: 0vw;
+
+    text-align: center;
+}

@@ -1,0 +1,25 @@
+<link rel="stylesheet" href="/css/projects/blog/day.css">
+
+<div class="row">
+    <div class="col-md-2">
+        <img class="background-img" src="/sources/projects/blog/images/dayfirsthalf.png" alt="">
+    </div>
+    <div class="col-md-8">
+
+        <% for (let index = 0; index < posts.length; index++) {
+            const element = posts[index]; %>
+        
+            <div class="div-wr">
+                <h3 class="header-wr"><%=element.title %></h3>
+                <p class="text-wr"><%=element.text.substring(0,100) %> <a class="read-more" href="/posts/<%=element.title%>">...read more</a></p>
+        
+            </div>
+        
+        <% } %>
+
+    </div>
+
+    <div class="col-md-2">
+        <img class="background-img" src="/sources/projects/blog/images/daysecondhalf.png" alt="">
+    </div>
+</div>

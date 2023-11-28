@@ -1,0 +1,88 @@
+body{
+    background-color: white;
+}
+
+
+.btn-div {
+   padding-top: 2%;
+   position: relative;
+   text-align: end;
+   
+}
+.btn-warning {
+   height: 5vw;
+   width: 8vw;
+   font-size: 1.5vw;
+
+}
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.topbar{
+    background-color: white;
+    color: black;
+    display: flex;  /* Make Flex container */
+    justify-content: center; /* Center horizontally */
+
+    font-family: "lemonde-journal", serif;
+    font-size: 1.4vw;
+ }
+ .topbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+ }
+ .topbar li{
+    display: inline-block;
+    float: left;
+ }
+ .topbar a{
+    padding: 15px 20px;
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    
+ }
+ .topbar a:hover{
+    background-color: black;
+    color: white;
+ }
+ .active{
+    background-color: grey;
+    color: white;
+   
+ }
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+   
+	text-align: center;
+	
+	width: 100%;
+	
+	background-color: white;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 1vw;
+   font-family: "sirenne-eighteen-mvb", serif;
+   font-style: italic;
+   color: black;
+}
+
+#g-header {
+   text-align: center;
+   color: black;
+   font-size: 18vw;
+   font-family: "sirenne-eighteen-mvb", serif;
+   font-weight: 700;
+   font-style: italic;
+
+   padding: 10%;
+   
+}
+

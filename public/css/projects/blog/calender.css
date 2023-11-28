@@ -1,0 +1,62 @@
+body {
+    font-family: "lemonde-journal", serif;
+}
+
+h1 {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 12vw;
+    margin: 0px;
+}
+
+.row {
+    padding: 0px;
+    margin: 0px;
+}
+.col-md-6 {
+   text-align: center;
+   padding: 0px;
+
+}
+
+.season {
+    width: 100%;
+    
+    
+}
+
+h3 {
+    font-size: 5vw;
+    padding-bottom: 10vw;
+}
+.list-div {
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+li {
+    padding-bottom: 3vw;
+    padding-top: 3vw;
+}
+h4 {
+    font-size: 3vw;
+}
+.autumn {
+    background-image: url('../sources/images/autmn.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.winter {
+    background-image: url('../sources/images/winter.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.spring {
+    background-image: url('../sources/images/spring.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.summer {
+    background-image: url('../sources/images/summer.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

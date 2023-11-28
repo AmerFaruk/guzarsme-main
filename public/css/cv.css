@@ -1,0 +1,105 @@
+.row {
+    margin: 0;
+}
+/* CV */
+.container-fluid{
+    padding: 3% 3%;
+}
+/* LEFT SECTION STARTS*/
+
+.left-col {
+    background-color: #2B2B2B;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    padding:3% 5%;
+}
+.shortcut {
+    text-align: center;
+}
+.iconContainer {
+    display: inline-block;
+    margin: 25px;
+    text-align: center;
+}
+.communication {
+    display: inline-flex;
+    width: 25px;
+    height: 25px;
+}
+.name {
+    color: white;
+}
+.profile {
+    width: 100%;
+}
+/**/
+.right-col {
+    background-color: #423F3E;
+    font-family: 'Jost', sans-serif;
+    text-align: left;
+    padding:3% 3%;
+}
+
+.header-cv {
+    color: #68B984;
+    font-size: 3.5rem;
+    font-weight:600;
+    padding: 5% 0;
+}
+.p-cv {
+    font-size: 1.2rem;
+    color: #F6E9E9;
+}
+/*****/
+#carrier {
+    color: wheat;
+}
+.left-carrier{
+    text-align: right;
+    padding:3%;
+}
+.right-carrier{
+    text-align: left;
+    padding:3%;
+}
+#carrier .header-cv{
+    color: #EC625F;
+}
+#education{
+    color: wheat;
+}
+#education .header-cv{
+    color: #FED049;
+}
+hr {
+    border: dotted 6px;
+    border-bottom: none;
+}
+#skills{
+    color: wheat;
+}
+#skills .header-cv{
+    color: #19A7CE;
+}
+.col-rule{
+    padding: 7% 5%;
+}
+.skill{
+    font-size: 1.3rem;
+}
+.skill-card{
+    padding: 3% 5%;
+}
+.skill-item{
+    background-color: #423F3E;
+    color: #19A7CE;
+}
+.art .skill-item{
+    color: #FED049;
+}
+.tools .skill-item{
+    color: #68B984;
+}
+.language .skill-item{
+    color: #EC625F;
+}

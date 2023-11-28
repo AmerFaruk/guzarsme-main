@@ -1,0 +1,68 @@
+body{
+    background-image: linear-gradient(to bottom right, #020202, #020202 ) ;
+    color: #989898;
+    height: 100%;
+
+}
+.row {
+    padding: 0px;
+    margin: 0px;
+}
+.col{
+    height: 1080px;
+}
+.background-img {
+    
+    width: 100%;
+ }
+
+.topbar{
+    background-color: #020202;
+
+ }
+ .topbar a{
+
+    color: #F6F6F6;
+ }
+ .topbar a:hover{
+    background-color: #7F7F7F;
+    color: #020202;
+ }
+ .active{
+    background-color: #989898;
+ }
+ .footer {
+
+	background-color: #020202;
+}
+
+.footer p {
+
+    color: #F6F6F6;
+}
+
+.div-wr{
+    color: #E5E5CB;
+    font-family: "lemonde-journal", serif;
+    padding: 3% 12%;
+    
+ 
+ }
+ .header-wr{
+    font-size: 2vw;
+    color: #7F7F7F;
+ }
+ 
+ .text-wr{
+    font-size: 1.2vw;
+    color: #D3D3D3;
+ }
+
+ .read-more {
+    color: #7F7F7F;
+ }
+
+ .read-more:hover{
+    color: #D3D3D3;
+    text-decoration: none;
+ }

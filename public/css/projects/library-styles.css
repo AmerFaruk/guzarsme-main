@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "ZonaPro";
+    src: url("sources/fonts/ZonaPro/ZonaPro-Bold.otf");
+
+}
+
+.row{
+    padding: 0%;
+    margin: auto;
+
+}
+.col {
+    padding: 0%;
+    text-align: center;
+}
+.partA{
+    padding-left: 5% ;
+    padding-top: 5%;
+}
+.partB{
+    padding: 0% ;
+}
+
+.container {
+    text-align: left;
+}
+
+.headingCon{
+    padding-bottom: 2.5rem;
+}
+
+.login{
+    display: inline-block;
+    margin-bottom: 2.5rem;
+}
+
+.signup{
+    display: inline-block;
+    margin-bottom: 2.5rem;
+}
+
+
+h1{
+    font-family: ZonaPro;
+    font-size: 64px;
+    text-align: left;
+    margin-bottom: 2.5rem;
+    
+}
+h2{
+    font-family: ZonaPro;
+    font-size: 48px;
+    text-align: left;
+    
+}
+h3{
+    font-family: ZonaPro;
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 1rem;
+    
+}
+h4{
+    font-family: ZonaPro;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 0.7rem;
+    margin-top: 0.7rem;
+    
+}
+h5{
+    font-family: ZonaPro;
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 0.5rem;    
+}
+
+.btn{
+    margin-top: 0.5rem; 
+}
+
+
+input{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
